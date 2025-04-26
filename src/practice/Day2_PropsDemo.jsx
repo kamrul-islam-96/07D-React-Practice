@@ -18,6 +18,8 @@ const Day2 = () => {
 
 
       <UserCard />
+
+      <HandleClickHover />
     </div>
   )
 }
@@ -69,4 +71,54 @@ const boxStyles = {
   padding: '16px',
   margin: '60px',
   boxShadow: '2px 2px 2px grey'
+}
+
+
+
+// "Part Three"
+// "Use Props Event Handeler"
+export const HandleClickHover = () => {
+  const clickHandle = (user) => {
+    alert(`Thanks For Click me ${user}`)
+  }
+
+  const hoverHandle = () => {
+    alert('Thanks For Hover Me')
+  }
+
+  const leaverHandle = () => {
+    alert('Thanks For Leave Me')
+  }
+
+  return (
+    <div>
+      <WelcomeUser 
+        onClickHandle = {() => clickHandle("KAMRUL")}
+        onHoverHandle = {() => hoverHandle()}
+        onLeaveHandle = {() => leaverHandle()}
+      />
+    </div>
+  )
+}
+
+const WelcomeUser = (props) => {
+  return (
+    <div>
+      <div>
+      <button style={btnStyle} onClick={props.onclickHandle}>Click Me</button>
+      <button style={btnStyle} onMouseEnter={props.onHoverHandle}>Hover Me</button>
+      <button style={btnStyle} onMouseLeave={props.onLeaveHandle}>Leave Me</button>
+      </div>
+    </div>
+  )
+}
+
+
+// "Button Style"
+const btnStyle = {
+  padding: '10px 36px',
+  backgroundColor: 'tomato',
+  margin: '0 10px',
+  border: 'none',
+  color: 'white'
 }

@@ -9,7 +9,7 @@ import Day7 from './practice/Day7_RouterPractice'
 
 export default function App() {
   const navItemstyles = {
-    width: '30%',
+    width: '40%',
     height: '50px',
     display: 'flex',
     alignItems: 'center',

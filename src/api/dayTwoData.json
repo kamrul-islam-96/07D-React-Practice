@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "name": "Tanisha Rahman",
+      "age": 26,
+      "education": "B.Sc in Computer Science",
+      "passion": "UI/UX Design",
+      "profession": "Frontend Developer",
+      "hobbies": ["Photography", "Traveling", "Blogging"],
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "id": "2",
+      "name": "Kamrul Islam",
+      "age": 30,
+      "education": "M.A. in English Literature",
+      "passion": "Creative Writing",
+      "profession": "Content Strategist",
+      "hobbies": ["Poetry", "Cycling", "Cooking"],
+      "location": "Chittagong, Bangladesh"
+    },
+    {
+      "id": "3",
+      "name": "Nadia Karim",
+      "age": 24,
+      "education": "BBA in Marketing",
+      "passion": "Digital Marketing",
+      "profession": "Social Media Manager",
+      "hobbies": ["Painting", "Vlogging", "Yoga"],
+      "location": "Sylhet, Bangladesh"
+    },
+    {
+      "id": "4",
+      "name": "Farhan Ahmed",
+      "age": 28,
+      "education": "B.Sc in Electrical Engineering",
+      "passion": "Robotics",
+      "profession": "Hardware Engineer",
+      "hobbies": ["Gaming", "3D Printing", "Hiking"],
+      "location": "Rajshahi, Bangladesh"
+    }
+]
+  

@@ -102,32 +102,32 @@ export const HandleClickHover = () => {
 }
 
 // "First Way to Pass Props"
-const WelcomeUser = (props) => {
-  return (
-    <div>
-      <div>
-      <button style={btnStyle} onClick={props.onclickHandle}>Click Me</button>
-      <button style={btnStyle} onMouseEnter={props.onHoverHandle}>Hover Me</button>
-      <button style={btnStyle} onMouseLeave={props.onLeaveHandle}>Leave Me</button>
-      </div>
-    </div>
-  )
-}
+// const WelcomeUser = (props) => {
+//   return (
+//     <div>
+//       <div>
+//       <button style={btnStyle} onClick={props.onclickHandle}>Click Me</button>
+//       <button style={btnStyle} onMouseEnter={props.onHoverHandle}>Hover Me</button>
+//       <button style={btnStyle} onMouseLeave={props.onLeaveHandle}>Leave Me</button>
+//       </div>
+//     </div>
+//   )
+// }
 
 
 // "Second Way to Pass Props"
-const WelcomeUser = (props) => {
-  const {onClickHandle, onHoverHandle, onLeaveHandle} = props;
-  return (
-    <div>
-      <div>
-      <button style={btnStyle} onClick={onClickHandle}>Click Me</button>
-      <button style={btnStyle} onMouseEnter={onHoverHandle}>Hover Me</button>
-      <button style={btnStyle} onMouseLeave={onLeaveHandle}>Leave Me</button>
-      </div>
-    </div>
-  )
-}
+// const WelcomeUser = (props) => {
+//   const {onClickHandle, onHoverHandle, onLeaveHandle} = props;
+//   return (
+//     <div>
+//       <div>
+//       <button style={btnStyle} onClick={onClickHandle}>Click Me</button>
+//       <button style={btnStyle} onMouseEnter={onHoverHandle}>Hover Me</button>
+//       <button style={btnStyle} onMouseLeave={onLeaveHandle}>Leave Me</button>
+//       </div>
+//     </div>
+//   )
+// }
 
 
 // "Third Way to Pass Props"

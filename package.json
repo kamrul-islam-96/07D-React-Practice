@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://<kamrul-islam-96>.github.io/<07D-React-Practice>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
